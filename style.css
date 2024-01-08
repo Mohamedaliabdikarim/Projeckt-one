@@ -11,6 +11,30 @@ body{
     background-image: url("https://img.freepik.com/free-photo/galaxy-nature-aesthetic-background-starry-sky-mountain-remixed-media_53876-126761.jpg?w=1380&t=st=1704040939~exp=1704041539~hmac=a22cf764707e43c426cc9cd2d3944942d0a18a9178e59fdc1eed6ce93400bfd7");
     background-position: center;
 }
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 247, 255, 0.342);
+    height: 60px;
+}
+
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+}
 .header {
     position: fixed;
     top: 0;
@@ -65,6 +89,42 @@ body{
     right: 6%;
 }
 
+
+.moon{
+    background-color: rgba(0, 255, 255, 0.1);
+    display: flex;
+    color: #333;
+    width: 95%%;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: 8px;
+    margin-right: 15px; 
+    
+   
+}
+.moon div{
+    display: block;
+    position: relative;
+    width:90%%;
+   
+    
+
+
+}
+h1{
+    text-align: center;
+    color: blue;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 15px;
+
+}
+
+
+
 /*media for 996 px*/
 @media (max-width:996px) {
     .header{
@@ -118,8 +178,85 @@ body{
 
     }
 
+    /* Footer */
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
     
     }
+
+    @media screen and (min-width:1200px){
+        .moon{
+            
+            background-color: rgba(0, 255, 255, 0.1);
+            display: flex;
+            color: #333;
+            margin-top: 250px;
+            margin-left: 15px;
+            width: 735px;
+            
+            
+           
+        }
+    
+        .moon div{
+            display: block;
+            position: relative;
+            width:110%;}
+        
+           
+    
+    
+         .moon:hover {
+            background-color: rgba(240, 240, 240, 0.4);
+        }
+        h1 {
+            color: blue;
+            font-size: 35px;
+        }
+        p {
+            margin-bottom: 20px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        
+        h1:hover,
+        p:hover {
+            color: orange; }
+        
+        
+    
+        
+    }
+    }
+
+    
+@media screen and (min-width:768px){
+    .moon{
+        background-color: rgba(0, 255, 255, 0.1);
+        display: flex;
+        color: #333;
+        margin-top:70px;
+        margin-left: 15px;
+        width: 735px;
+        
+
+
+    
+
+}
+}
 
 
     

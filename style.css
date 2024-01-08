@@ -1,52 +1,84 @@
 *{
-
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    padding:0;
+    margin:0;
+    font-family: "Poppins", sans-serifs;
 }
 
 body{
     min-height: 100vh;
+    background: none;
     background-size: cover;
-    background: no-repeat;
     background-image: url("https://img.freepik.com/free-photo/galaxy-nature-aesthetic-background-starry-sky-mountain-remixed-media_53876-126761.jpg?w=1380&t=st=1704040939~exp=1704041539~hmac=a22cf764707e43c426cc9cd2d3944942d0a18a9178e59fdc1eed6ce93400bfd7");
-
+    background-position: center;
 }
- /*style for the header*/
+
 .header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 1.4rem 6%;
     display: flex;
     justify-content: space-between;
+    z-index: index 100; ;
     align-items: center;
-
+}
+.logo img{
+    max-width: 30%;
 }
 
-/*logo styling*/
 
 .nav{
-
     position: absolute;
     width: 100%;
-    height: 0;
+    height:0;
+    left: 0;
     top: 100%;
-    background: rgba(0,0,0,.1);
-    transform: 0.4s ease;
-    overflow: hidden;
-    box-shadow: 0.6rem 1.2 rgba(0,0,0,rgba(0,0,0,.1));
-    backdrop-filter:blur(50px);
-}
+    background:rgba(0,0, 0, 0.1);
+    backdrop-filter: blur(50px);
+    box-shadow:0 .6rem 1.2rem  rgba(0, 0, 0, 0.1);
+    transition: 0.4s ease;
+    overflow: hidden;}
 
-.nav a ul li {
+.nav a {
     font-size: 1.2rem;
     color: white;
     font-size: 600;
     text-decoration: none;
+    font-weight: 600;
     margin-left: 2.6rem;
-
-    
+    display: block;
+    transform: translateX(-50px);
+    opacity: 0;
+}
+.icon{
+    font-size:2.9rem ;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+   display: inline-block;
+    right: 6%;
 }
 
+#checkbox{
+    display: none;}
+#checkbox:checked~.icon #bx-menu{
+    display: none;
+}
+.icon #k-menu{
+    display: none;
+
+}
+
+
+#checkbox:checked~.icon #k-menu{
+    display: block;
+}
+
+ #checkbox:checked~.nav{
+        height: 18.0rem;
+    }
+    #checkbox:checked~ .nav a {
+        transform: translateX(0);
+        transition-delay: 0.20s * var(--i);
+        opacity: 1;}

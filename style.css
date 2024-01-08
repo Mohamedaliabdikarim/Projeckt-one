@@ -11,6 +11,93 @@ body{
     background-image: url("https://img.freepik.com/free-photo/galaxy-nature-aesthetic-background-starry-sky-mountain-remixed-media_53876-126761.jpg?w=1380&t=st=1704040939~exp=1704041539~hmac=a22cf764707e43c426cc9cd2d3944942d0a18a9178e59fdc1eed6ce93400bfd7");
     background-position: center;
 }
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.5rem 11%;
+    display: flex;
+    justify-content: space-between;
+    z-index:100; ;
+    align-items: center;
+    
+    
+}
+
+.header::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+   z-index: -1;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(50px);
+}
+.logo img {
+    max-width: 30%;
+    border-radius:10px;
+    
+  }
+
+
+.nav a {
+    font-size: 1.2rem;
+    color: white;
+    font-size: 600;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 2.6rem;
+}
+#checkbox{
+    display: none;
+}
+
+.icon{
+    font-size:2.9rem ;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    display: none;
+    right: 6%;
+}
+
+.moon{
+    background-color: rgba(0, 255, 255, 0.1);
+    display: flex;
+    color: #333;
+    width: 96%;
+    position: relative;
+    margin-top:118px;
+    margin-left: 8px;
+    margin-right: 8px; 
+    text-align: center;
+    justify-content: center;
+    border-radius: 50px;
+
+}
+h1{
+    text-align: center;
+    color: blue;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 15px;
+
+}
+
+p{
+    color: rgb(14, 19, 14); 
+    font-weight: bold;
+    color: orange;
+    margin: 4px;
+    
+
+}
+
+
+
 
 footer {
     position: fixed;
@@ -35,105 +122,14 @@ footer {
     padding: 5%;
     color: #3a3a3a;
 }
-.header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 1.5rem 11%;
-    display: flex;
-    justify-content: space-between;
-    z-index: index 100; ;
-    align-items: center;
-    
-    
-}
 
-.header::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-   z-index: -1;
-    top: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(50px);
-}
-.logo img {
-    max-width: 30%;
-    border-radius:10px;
-    
-  }
-  
-  
-
-.nav a {
-    font-size: 1.2rem;
-    color: white;
-    font-size: 600;
-    text-decoration: none;
-    font-weight: 600;
-    margin-left: 2.6rem;
-}
-#checkbox{
-    display: none;
-}
-
-.icon{
-    font-size:2.9rem ;
-    color: white;
-    cursor: pointer;
-    position: absolute;
-    display: none;
-    right: 6%;
-}
-
-
-.moon{
-    background-color: rgba(0, 255, 255, 0.1);
-    display: flex;
-    color: #333;
-    width: 95%%;
-    position: absolute;
-    text-align: center;
-    justify-content: center;
-    border-radius: 50px;
-    margin-top: 20px;
-    margin-left: 8px;
-    margin-right: 15px; 
-    
-   
-}
-.moon div{
-    display: block;
-    position: relative;
-    width:90%%;
-   
-    
-
-
-}
-h1{
-    text-align: center;
-    color: blue;
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 15px;
-
-}
-
-
-
-/*media for 996 px*/
-@media (max-width:996px) {
+@media (max-width:100px) {
     .header{
         padding: 1.4rem 6 %;
     }
 }
 
-/*media for 768 px*/
-@media (max-width:768px) {
+@media (max-width:800px) {
     .icon{
         display: inline-block;
     }
@@ -177,97 +173,10 @@ h1{
         opacity: 0;
 
     }
-
-    /* Footer */
-#social-networks {
-    text-align: center;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-}
-
-#social-networks i {
-    font-size: 160%;
-    padding: 5%;
-    color: #3a3a3a;
-}
-
+    #checkbox:checked~ .nav a {
+        transform: translateX(0);
+        transition-delay: 0.20s * var(--i);
+        opacity: 1;
+    }
     
     }
-
-    @media screen and (min-width:1200px){
-        .moon{
-            
-            background-color: rgba(0, 255, 255, 0.1);
-            display: flex;
-            color: #333;
-            margin-top: 250px;
-            margin-left: 15px;
-            width: 735px;
-            
-            
-           
-        }
-    
-        .moon div{
-            display: block;
-            position: relative;
-            width:110%;}
-        
-           
-    
-    
-         .moon:hover {
-            background-color: rgba(240, 240, 240, 0.4);
-        }
-        h1 {
-            color: blue;
-            font-size: 35px;
-        }
-        p {
-            margin-bottom: 20px;
-            font-size: 20px;
-            font-weight: bold;
-        }
-        
-        h1:hover,
-        p:hover {
-            color: orange; }
-        
-        
-    
-        
-    }
-    }
-
-    
-@media screen and (min-width:768px){
-    .moon{
-        background-color: rgba(0, 255, 255, 0.1);
-        display: flex;
-        color: #333;
-        margin-top:70px;
-        margin-left: 15px;
-        width: 735px;
-        
-
-
-    
-
-}
-}
-@media screen and (min-width:600px){
-    .moon{
-        background-color: rgba(0, 255, 255, 0.1);
-        display: flex;
-        color: orange;
-        margin-top:100px;
-        margin-left: 15px;
-        width: 735px;
-    }
-}
-
-
-
-    

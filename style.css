@@ -59,56 +59,49 @@ body {
   display: none;
   right: 6%;
 }
-
-.moon {
-  background-color: rgba(0, 255, 255, 0.1);
-  display: flex;
-  color: #333;
-  width: 96%;
-  position: relative;
-  margin-top: 118px;
-  margin-left: 8px;
-  margin-right: 8px;
-  text-align: center;
-  justify-content: center;
-  border-radius: 50px;
+.moon{
+    display: flex;
+    flex-direction: column;
 }
-h1 {
-  text-align: center;
-  color: blue;
-  font-size: 35px;
-  font-weight: bold;
-  margin-bottom: 15px;
-}
-
-p {
-  color: rgb(14, 19, 14);
-  font-weight: bold;
-  color: orange;
-  margin: 4px;
-}
-.moon-1{
+.moon div{
+    position: relative;
+    top: 125px;;
+    text-align: center;
     background-color: rgba(0, 255, 255, 0.1);
-    color: #333;
-  width: 96%;
-  margin-top: 65px;
-  margin-left: 8px;
-  margin-right: 8px;
-  text-align: center;
-  justify-content: center;
-  border-radius: 50px;
+    position: relative;
+    border-radius: 50px;
+    margin-left: 8px;
+    margin-right: 8px;
+    
     
 
-}
-
-.video{
-    position: relative;
-    width: 100%;
-    margin-top: 10px;
-    margin-bottom: 25px;
-    overflow: hidden;
 
 }
+h1 {
+    text-align: center;
+    color: blue;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    color: rgb(14, 19, 14);
+    font-weight: bold;
+    color: orange;
+    margin: 4px;
+  }
+  
+
+.gif img{
+    margin-top:30px;
+    width:100%;
+    border-radius: 50px;
+
+    
+}
+
+
 
 footer {
   position: fixed;
@@ -134,10 +127,72 @@ footer {
   color: #3a3a3a;
 }
 
+
+@media screen and (min-width: 1200px) {
+    .moon {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .moon div{
+        position: relative;
+        margin-top: 15px;
+        width: 40%;
+        height: 55%;
+        
+
+    }
+    div:hover{
+        background-color: rgba(240, 240, 240, 0.4);}
+        h1 {
+            color: blue;
+            font-size: 35px;
+        }
+        p {
+            margin-bottom: 20px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        
+        h1:hover,
+        p:hover {
+            color: rgb(0, 255, 13); }
+
+
+
+
+    
+    
+    .gif img{
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        width: 90%;
+        
+    }
+}
+
+
+
+@media screen and (min-width: 996px) {
+    .gif img{
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        width: 100%;
+        margin-right: 70px;}
+
+
+}
+
+
 @media (max-width: 996) {
   .header {
     padding: 1.2rem 4 %;
   }
+
+
+  
 }
 
 @media (max-width: 800px) {
@@ -186,46 +241,5 @@ footer {
     opacity: 1;
   }
 }
-@media screen and (min-width: 996px) {
-    .moon {
-      display: block;
-      background-color: rgba(0, 255, 255, 0.1);
-      color: #333;
-      margin-left: 15px;
-      width:40%;
-    }
-
-    .moon div{
-        margin: 0  15px 15px;
-    }
-
-    .moon:hover {
-        background-color: rgba(240, 240, 240, 0.4);}
-
-        h1 {
-            color: blue;
-            font-size: 35px;
-        }
-        p {
-            margin-bottom: 20px;
-            font-size: 20px;
-            font-weight: bold;
-        }
-        
-        h1:hover,
-        p:hover {
-            color: rgb(0, 255, 13); }
-
-       .moon-1{
-        display: flex;
-      background-color: rgba(0, 255, 255, 0.1);
-      color: #333;
-      position: relative;
-      margin-left: 15px;
-      width:40%;
-       }     
-
-
-  }
   
   

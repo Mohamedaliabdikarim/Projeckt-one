@@ -6,7 +6,7 @@
 }
 body {
   min-height: 100vh;
-  background: none;
+  background-repeat: no-repeat;
   background-size: cover;
   background-image: url("https://img.freepik.com/free-photo/galaxy-nature-aesthetic-background-starry-sky-mountain-remixed-media_53876-126761.jpg?w=1380&t=st=1704040939~exp=1704041539~hmac=a22cf764707e43c426cc9cd2d3944942d0a18a9178e59fdc1eed6ce93400bfd7");
   background-position: center;
@@ -101,6 +101,21 @@ h1 {
     
 }
 
+.moon-1{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.moon-1 div{
+    position: relative;
+    top: 125px;;
+    text-align: center;
+    background-color: rgba(0, 255, 255, 0.1);
+    position: relative;
+    border-radius: 50px;
+}
 
 
 footer {
@@ -170,6 +185,7 @@ footer {
         width: 90%;
         
     }
+    
 }
 
 
@@ -179,7 +195,7 @@ footer {
         display: flex;
         align-items: center;
         justify-content: start;
-        width: 100%;
+        width: 650px;
         margin-right: 70px;}
 
 

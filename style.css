@@ -238,10 +238,9 @@ footer {
   .video iframe {
     width: 100%;
     height: 100%;
-    margin-left: 20px;
+    
   }
   .secend-text {
-    position: relative;
     margin: 30px;
 
   }
@@ -251,7 +250,6 @@ footer {
 
 @media screen and (min-width: 768px) {
   .containter {
-    margin-top: 15px;
     align-items: center;
   }
 
@@ -261,22 +259,24 @@ footer {
 
   .gif {
     margin-top: 10px;
-    width: 100%;
-    height: 350px;
   }
+  .git img{
+    width: 96%;
+    height: 550px;
+  }
+
+  
   .video {
-    margin-bottom: 20px;
-    width: 100%;
-    height: 350px;
+    width: 96%;
   }
   .video iframe {
-    
+    margin: 15px; 
 
   }
   .secend-text {
+    position: relative;
     text-align: center;
-    margin: 20px;
-    width: 100%;
+    width: 96%;
   }
 }
 
@@ -284,7 +284,7 @@ footer {
   .header {
     padding: 1rem 4 %;
   }
-  
+
 }
 
 

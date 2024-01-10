@@ -63,7 +63,7 @@ body {
   flex-direction: column;
   position: relative;
   align-items: center;
-  top: 70px;
+  top:80px;
 }
 .facts-text {
   margin: 10px;
@@ -84,11 +84,14 @@ p {
   margin-right: 10px;
   font-size: 0.9rem;
 }
+.gif{
+  width: 100%;
+}
 
 .gif img {
-  width: 90%;
+  width:96%;
   height:75%;
-  margin-left:15px;
+  margin-left:9px;
   border-radius: 40px;
 }
 
@@ -96,17 +99,17 @@ p {
   display: flex;
   flex-direction: column;
   position: relative;
-  margin-top: 50px;
 }
 .video {
+  width: 100%;
 }
 
 .video iframe {
   position: relative;
   border-radius: 10px;
-  margin:30px 5px 5px 15px;
-  width: 90%;
-  height: 165px;
+  margin:10px 5px 5px 12px;
+  width: 95%;
+  height: 310px;
   overflow: hidden;
 }
 

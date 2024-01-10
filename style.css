@@ -58,27 +58,26 @@ body {
   display: none;
   right: 6%;
 }
-.containter{
+.containter {
   display: flex;
   flex-direction: column;
   position: relative;
   align-items: center;
-  top:70px;
+  top: 70px;
 }
-.facts-text{
-  margin:10px;
-
+.facts-text {
+  margin: 10px;
 }
-h1{
-  font-size:1.2rem;
-  font-family:"Poppins", sans-serifs;
+h1 {
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serifs;
   text-align: center;
 }
-h4{
-  font-size: 1.0rem;
+h4 {
+  font-size: 1rem;
 }
 
-p{
+p {
   margin-top: 2px;
   margin-bottom: 2px;
   margin-left: 10px;
@@ -86,47 +85,35 @@ p{
   font-size: 0.9rem;
 }
 
-
-.gif img{
-  width:95%;
-  height: 85%;
-  margin-left: 12px;
+.gif img {
+  width: 90%;
+  height:75%;
+  margin-left:15px;
   border-radius: 40px;
-
 }
 
-.secend-container{
+.secend-container {
   display: flex;
   flex-direction: column;
   position: relative;
-  margin-top:50px;
-margin-bottom: 20px;
+  margin-top: 50px;
 }
-.video{
-
-  
+.video {
 }
 
-.video iframe{
+.video iframe {
   position: relative;
   border-radius: 10px;
-  margin-left: 5px;
-  margin-right:5px;
-  width: 98%;
-  height:100%;
+  margin:30px 5px 5px 15px;
+  width: 90%;
+  height: 165px;
   overflow: hidden;
-
 }
 
-.secend-text{
-  margin:5px;
-align-items: center;
-margin-bottom:20px;
-
-
+.secend-text {
+  margin: 5px;
+  align-items: center;
 }
-
-
 
 footer {
   position: fixed;
@@ -152,75 +139,150 @@ footer {
   color: #3a3a3a;
 }
 
-
-
 @media screen and (min-width: 1200px) {
-  .containter{
+  .containter {
     display: flex;
     flex-direction: row;
     position: relative;
-   margin: 20px;
-   justify-content: space-between;
+    margin: 20px;
+    justify-content: space-between;
   }
 
-  .facts-text{
+  .facts-text {
     display: flex;
     flex-direction: column;
-    width: 50%;}
+    width: 50%;
+  }
 
-    h1{
-      font-size:2rem;
-      text-align: justify;
-      margin: 20px;
-    }
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 20px;
+  }
 
-    p{
-      margin: 10px;
-      font-size:1.1rem;
-    }
+  p {
+    margin: 10px;
+    font-size: 1.1rem;
+  }
 
-    .gif{
-      margin-top: 50px;
-      width:45%;
-      height: 450px;
-      
-    
-    }
-    .secend-container{
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-    }
+  .gif {
+    margin-top: 50px;
+    width: 45%;
+    height: 450px;
+  }
+  .secend-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
 
-    .video{
-      margin-bottom: 20px;
-      width:75%;
-      height: 450px;
-      
-    }
-    .secend-text{
-      position: relative;
-      margin-left:240px;
-      width: 75%;
-      margin-bottom:160px;
-      
-    }
-    
-      
+  .video {
+    margin-bottom: 20px;
+    width: 120%;
+    height: 420px;
+    margin-left: 20px;
+  }
+  .secend-text {
+    position: relative;
+    margin-left: 110px;
+    width: 75%;
+    margin-bottom: 160px;
+  }
+}
 
+@media screen and (min-width: 996px) {
+  .containter {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin: 20px;
+    justify-content: space-between;
+  }
+  .facts-text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
 
-  
+  .gif {
+    margin-top:60px;
+    width: 45%;
+    height: 480px;
+  }
+
+  .secend-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .video {
+    margin: -50px;
+    margin-bottom: 20px;
+    width:160%;
+    height:430px;
+    margin-left: 20px;
+  }
+  .secend-text {
+    position: relative;
+    margin-left:100px;
+    width: 75%;
+    margin-bottom: 160px;
+  }
+
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 20px;
+  }
+
+  p {
+    margin: 10px;
+    font-size: 1.1rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .containter {
+    margin-top: 15px;
+    align-items: center;
+  }
+
+  .facts-text {
+    text-align: left;
+  }
+
+  .gif {
+    margin-top: 10px;
+    width: 100%;
+    height: 350px;
+  }
+  .video {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 350px;
+  }
+  .secend-text {
+    text-align: center;
+    margin: 20px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 996) {
+  .header {
+    padding: 1rem 4 %;
+  }
   
 }
 
 
+
+
+
+
 @media (max-width: 996) {
   .header {
-    padding: 1.0rem 4 %;
+    padding: 1rem 4 %;
   }
-
-
-  
 }
 
 @media (max-width: 800px) {
@@ -269,5 +331,3 @@ footer {
     opacity: 1;
   }
 }
-  
-  

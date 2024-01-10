@@ -129,11 +129,9 @@ p {
 }
 
 footer {
-  position: absolute;
   bottom: 0;
-  left: 0;
-  width: 100%;
-  text-align: center;
+  position: fixed;
+  height: 100px;
   background-color: rgba(0, 247, 255, 0.281);
 }
 
@@ -250,6 +248,17 @@ footer {
   .video iframe {
     width: 100%;
     height: 350px;
+    
+  }
+  
+  footer {
+    position: fixed;
+    width:100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height:75px;
+
     
   }
 

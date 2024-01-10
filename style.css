@@ -79,7 +79,12 @@ h4 {
 h1,h4,p{
   color: #f0ece9;
 }
-
+#text{
+  margin-top:10px;
+}
+h2{
+  margin: 2px;
+}
 p {
   margin-top: 2px;
   margin-bottom: 2px;

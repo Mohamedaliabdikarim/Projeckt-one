@@ -198,39 +198,11 @@ footer {
     margin: 20px;
     justify-content: space-between;
   }
-  .facts-text {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-  }
 
-  .gif {
-    margin-top:60px;
-    width: 45%;
-    height: 480px;
-  }
 
-  .secend-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-  .video {
-    margin: -50px;
-    margin-bottom: 20px;
-    width:160%;
-    height:430px;
-    margin-left: 20px;
-  }
-  .secend-text {
-    position: relative;
-    margin-left:100px;
-    width: 75%;
-    margin-bottom: 160px;
-  }
 
   h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-align: center;
     margin: 20px;
   }
@@ -239,7 +211,40 @@ footer {
     margin: 10px;
     font-size: 1.1rem;
   }
+
+  .gif {
+    margin-top:20px;
+  }
+  .gif img {
+    width: 100%;
+    height:110%;
+    margin: 5px;
+    
+
+  }
+  .secend-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .video{
+    margin-top: 50px;
+  }
+  .video iframe {
+    width: 100%;
+    height: 100%;
+    margin-left: 20px;
+  }
+  .secend-text {
+    position: relative;
+    margin: 30px;
+
+  }
+
 }
+ 
+
 @media screen and (min-width: 768px) {
   .containter {
     margin-top: 15px;
@@ -259,6 +264,10 @@ footer {
     margin-bottom: 20px;
     width: 100%;
     height: 350px;
+  }
+  .video iframe {
+    
+
   }
   .secend-text {
     text-align: center;

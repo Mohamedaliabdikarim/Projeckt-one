@@ -143,36 +143,14 @@ footer {
   color: #3a3a3a;
 }
 
+
 @media screen and (min-width: 1200px) {
-  .containter {
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    margin: 20px;
-    justify-content: space-between;
-  }
 
-  .facts-text {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-  }
-
-  h1 {
-    font-size: 2rem;
-    text-align: center;
-    margin: 20px;
-  }
-
-  p {
-    margin: 10px;
-    font-size: 1.1rem;
-  }
 
   .gif {
     margin-top: 50px;
     width: 45%;
-    height: 450px;
+    height: 350px;
   }
   .secend-container {
     display: flex;
@@ -180,17 +158,16 @@ footer {
     align-items: center;
   }
 
-  .video {
-    margin-bottom: 20px;
-    width: 120%;
-    height: 420px;
-    margin-left: 20px;
+
+  .video iframe {
+    width:45%;
+    height: 200px;
+    
   }
   .secend-text {
     position: relative;
-    margin-left: 110px;
     width: 75%;
-    margin-bottom: 160px;
+    margin-bottom:
   }
 }
 

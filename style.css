@@ -130,10 +130,8 @@ p {
 
 footer {
   position: absolute;
-  width: 100%;
   bottom: 0;
   left: 0;
-  bottom: 0;
   width: 100%;
   text-align: center;
   background-color: rgba(0, 247, 255, 0.281);

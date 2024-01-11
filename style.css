@@ -115,7 +115,7 @@ nav a {
   top:80px;
 }
 .facts-text {
-  margin: 10px;
+  margin:10px;
 }
 h1 {
   font-size: 1.2rem;
@@ -206,12 +206,13 @@ footer {
 /* --- contact part--*/
 
 .Contact{
-  width: 70%;
-  max-width: 600px;
+  width:85%;
+  max-width: 85%;
   background: #f1f1f1;
   position: absolute;
   top: 50%;
   left: 50%;
+  font-family: 'Courier New', Courier, monospace;
   transform: translate(-50%,-50%);
   padding: 30px 40px;
   box-sizing: border-box;

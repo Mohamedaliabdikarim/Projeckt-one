@@ -259,8 +259,27 @@ border: #0c0b0b;
   color: rgb(228, 228, 238);
 }
 
+/* gallery page*/
+
+.photo img{
+  width: 100%;
+  line-height: 1.2rem;
+}
+
+.photo{
+  line-height: 0;
+}
 
 
+
+
+@media screen and (min-width: 576px) {
+  .photo{ column-count:2;
+    column-gap: 0;
+
+  }
+
+}
 
 @media screen and (min-width: 1200px) {
   .facts-text{
@@ -305,7 +324,7 @@ border: #0c0b0b;
 
 }
 
-@media screen and (min-width: 996px) {
+@media screen and (min-width: 992px) {
 
   h1,p:hover{
     color: rgb(0, 255, 13); 
@@ -372,6 +391,9 @@ border: #0c0b0b;
     height:75px;
 
     
+  }
+  .photo{
+    column-count: 4;
   }
 
 }
@@ -485,6 +507,9 @@ nav a {
     position: relative;
     text-align: center;
     width: 96%;
+  }
+  .photo{column-count: 3;
+
   }
   
 

@@ -250,6 +250,14 @@ footer {
   margin-top:6px ;
 }
 
+button{
+border: #0c0b0b;
+  width: 80px;
+  font-size: 18px;
+  background-color: blue;
+  color: rgb(228, 228, 238);
+}
+
 
 
 

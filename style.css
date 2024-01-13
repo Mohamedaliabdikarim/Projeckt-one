@@ -302,6 +302,10 @@ button {
 
 
 }
+.share{
+  text-align: center;
+  margin-bottom: 35px;
+}
 
 .contact-in:focus{
   border: 2px solid #ff994f;
@@ -318,6 +322,7 @@ button {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin-bottom: 15px;
 }
 .get-in{
   font-size: 40px;

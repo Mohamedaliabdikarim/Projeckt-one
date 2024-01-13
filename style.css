@@ -145,6 +145,10 @@ h4 {
   margin: 2px;
 }
 
+#text{
+  margin-top: 30px;
+}
+
 p {
   margin-top: 2px;
   margin-bottom: 2px;
@@ -299,6 +303,7 @@ button {
   min-width: 100%;
   min-height: auto;
   display: flex;
+  margin-bottom: 50px;
   background-color: hsla(240, 86%, 3%, 0.68);
 
 
@@ -577,10 +582,6 @@ button {
     margin-top:32px;
   }
 
-  .git img {
-    width: 96%;
-    height:650px;
-  }
 
 
   .video {

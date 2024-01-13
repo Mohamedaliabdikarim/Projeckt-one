@@ -96,30 +96,35 @@
       </div>
     </section>
     <section class="contact-form" id="contact-form">
+      <form action="https://api.web3forms.com/submit" method="POST">
       <div class="contact-form2">
+        <h1 class="get-in">Get in touch</h1>
+        <p class="share">If you are seeking additional information or have intriguing facts about the moon to share, please feel free to inform us.</p>
       <div class="Contact">
         <h1> Contact Us</h1>
         <div class="textb">
+          <input type="hidden" name="access_key" value="b675730a-fd59-401e-8cf6-dbeebe727eb8">
             <label for=""> Full Name:</label>
-        <input type="text" name="" value="" placeholder=" Enter Your Name. ">
+        <input type="text" name="name" value="" placeholder=" Enter Your Name. " class="contact-in" required>
       </div>
       <div class="textb">
         <label for="">E-mail:</label>
-        <input type="email" name="" value="" placeholder=" Enter Your E-mail. ">
+        <input type="email" name="email" value="" placeholder=" Enter Your E-mail. " class="contact-in" required>
     </div>
     <div class="textb">
         <label for="">Message:</label>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <textarea name="" id="" cols="30" rows="10" required class="contact-in"></textarea>
     </div>
 
     <div class="textb">
-      <button> Submit</button>
+      <button type="submit"> Submit</button>
     </div>
     </div>
 
 
 
     </div>
+  </form>
     </section>
     <footer>
       <ul id="socials">

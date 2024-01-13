@@ -123,13 +123,13 @@ nav a {
 }
 
 h1 {
-  font-size: 1.2rem;
+  font-size: 2.13rem bold;
   font-family: "Poppins", sans-serifs;
   text-align: center;
 }
 
 h4 {
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
 h1,
@@ -151,7 +151,7 @@ p {
   margin-bottom: 2px;
   margin-left: 10px;
   margin-right: 10px;
-  font-size: 0.7rem;
+  font-size: 16px;
 }
 
 .gif {
@@ -268,11 +268,13 @@ footer {
 }
 
 button {
+  cursor: pointer;
   border: #0c0b0b;
   width: 80px;
   font-size: 18px;
   background-color: blue;
   color: rgb(228, 228, 238);
+  border-radius: 50px;
 }
 
 /* gallery page*/
@@ -296,6 +298,13 @@ button {
 
 }
 
+.contact-in:focus{
+  border: 2px solid #ff994f;
+  
+  
+
+}
+
 .contact-form2 {
   display: flex;
   margin: 40px 0 40px 0;
@@ -304,6 +313,11 @@ button {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+.get-in{
+  font-size: 40px;
+  font-weight: 600;
+  color: #a366aa;
 }
 
 

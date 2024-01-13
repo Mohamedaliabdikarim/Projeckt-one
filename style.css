@@ -106,12 +106,6 @@ nav a {
   display: none;
 }
 
-/* 
-#checkbox:checked~.nav a {
-  transform: translateX(0);
-  transition-delay: 0.2s * var(--i);
-  opacity: 1;
-} */
 
 .containter {
   display: flex;
@@ -119,7 +113,7 @@ nav a {
   flex-direction: column;
   position: relative;
   align-items: center;
-  top: 80px;
+  top: 124px;
 }
 
 
@@ -160,6 +154,7 @@ p {
 }
 
 .gif {
+  margin-top: 42px;
   width: 96%;
 }
 
@@ -174,11 +169,11 @@ p {
   display: flex;
   flex-direction: column;
   position: relative;
-  margin-top: 75px;
+  margin-top: 110px;
+  margin-right: 6px;
 }
 
 .video {
-  /* margin-top: ; */
   width: 96%;
   margin: 8px 18px 12px;
 }
@@ -187,13 +182,19 @@ p {
   position: relative;
   border-radius: 10px;
   width: 98%;
-  height: 240px;
+  height: 340px;
   overflow: hidden;
 }
 
 .secend-text {
-  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  margin-top: 42px;
+  margin-left: 20px;
+  align-items: center;
+  margin-bottom: 42px;
 }
 
 footer {

@@ -287,6 +287,8 @@ button {
   border-radius: 50px;
 }
 
+
+
 /* gallery page*/
 
 .photo img {
@@ -348,21 +350,21 @@ button {
 
 @media screen and (min-width: 1200px) {
   .facts-text {
+    width: 110%;
+    height:580px;
     background-color: rgba(0, 255, 255, 0.1);
     border-radius: 35px;
 
   }
 
-  .facts-text:hover {
-    background-color: rgba(240, 240, 240, 0.4);
-
-  }
+ 
 
 
   .gif {
+    margin-right: 8px;
     margin-top: 50px;
-    width: 45%;
-    height: 350px;
+    width: 100%;
+    height: 340px;
   }
 
   .secend-container {
@@ -379,17 +381,17 @@ button {
   }
 
   .secend-text {
+    margin-top: 50px;
     background-color: rgba(0, 255, 255, 0.3);
     position: relative;
     width: 75%;
     border-radius: 35px;
   }
-
-  .secend-text:hover {
-    background-color: rgba(240, 240, 240, 0.4);
-
+  .contact-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
-
 }
 
 @media screen and (min-width: 992px) {
@@ -401,9 +403,6 @@ button {
 
   }
 
-  .facts-text:hover {
-    background-color: rgba(240, 240, 240, 0.4);
-  }
 
   .containter {
     display: flex;
@@ -427,12 +426,12 @@ button {
   }
   .gif {
     width: 100%;
-    height: 100%;
+    height: 150%;
   }
 
   .gif img {
     width: 100%;
-    height:565px;
+    height:585px;
 
 
 
@@ -447,13 +446,15 @@ button {
 
   .video {
     position: relative;
-    width: 50&;
+    width: 100%;
     margin-top: 35px;
+    margin-bottom: 42px;
+    
   }
 
   .video iframe {
     width: 100%;
-    height: 350px;
+    height: 450px;
 
   }
   
@@ -483,6 +484,7 @@ button {
   .photo {
     column-count: 4;
   }
+  
 
 }
 

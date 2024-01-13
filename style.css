@@ -560,16 +560,17 @@ button {
   }
 
   .gif {
-    margin-top: 10px;
+    margin-top:32px;
   }
 
   .git img {
     width: 96%;
-    height: 550px;
+    height:650px;
   }
 
 
   .video {
+    margin-top: 32px;
     width: 96%;
   }
 

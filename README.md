@@ -81,6 +81,8 @@ Note: It might take a few moments for the changes to take effect, and for your s
 
 ![img](assets/images/deployment.png)
 
+Explore the active GitHub repository by following this link [her](https://github.com/Mohamedaliabdikarim/Projeckt-one):
+
 
 
 
@@ -95,3 +97,13 @@ Note: It might take a few moments for the changes to take effect, and for your s
 ### CSS
 - Successfully validated with W3C CSS, free from errors.
 
+
+
+## Credits
+
+content
+- font is from [google fonts]('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@200;400;700&display=swap')
+
+- icon I made it in [figma ](https://www.figma.com/)
+
+- the text is from [NASA](https://science.nasa.gov/moon/) and [ROYAL MUSEUMS GREENWICH ](https://www.rmg.co.uk/stories/topics/interesting-facts-about-moon)

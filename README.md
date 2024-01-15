@@ -4,7 +4,8 @@ Welcome to Moon Explorer! This webpage is dedicated to providing interesting fac
 
 ## Introduction
 Moon Explorer is a web project designed for people fascinated by the moon. Uncover captivating facts and trivia about our cosmic neighbor right here.
-[Local Image](https://vscode.dev/github/Mohamedaliabdikarim/Projeckt-one/blob/main/assets/images/Skjermbilde%202024-01-15%20103024.png)
+
+![img](assets/images/bilde.png)
 ## Media
 Dive into the moon's mesmerizing visuals with our collection of media content:
 

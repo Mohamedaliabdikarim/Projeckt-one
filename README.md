@@ -107,3 +107,15 @@ content
 - icon I made it in [figma ](https://www.figma.com/)
 
 - the text is from [NASA](https://science.nasa.gov/moon/) and [ROYAL MUSEUMS GREENWICH ](https://www.rmg.co.uk/stories/topics/interesting-facts-about-moon)
+
+
+Media
+
+**Disclaimer:**
+All the images in this gallery were found via Google searches, and unfortunately, I can no longer locate the links to the original sources. I want to emphasize that ownership and rights to these images belong to their respective creators. If you are the owner of any of the images and wish for proper credit or removal, please let me know, and I will take immediate action. Thank you for your understanding.
+
+Code
+- The header and navigation are inspired by and include elements borrowed from [YouTube](https://www.youtube.com/watch?v=yE9DLIoDwCg&t=720s).
+
+- footer was taken forom [LOVE RUNNIG](https://github.com/Mohamedaliabdikarim/love-runer)
+

@@ -37,6 +37,53 @@ Positioned at the top of each page on the site, the navigation menu is fully res
 
 ![img](assets/images/logo.read.png)
 
+## Gallery
+
+Welcome to our gallery page! Here, you'll find a collection of stunning images of the moon. We've made it easy for you to explore and comprehend the beauty of the moon through these visually impressive pictures.
+![img](assets/images/gallery.readme.png)
+
+### How to use the gallery
+
+
+
+I hope our gallery provides you with a meaningful experience of the moon. Explore and enjoy the pictures!
+
+
+## Contact Us
+
+Welcome to our "Contact Us" section! If you have any questions, new ideas, discovered issues, or wish to share new facts, this is the place to reach out. We value your feedback and are here to assist.
+
+![img](assets/images/contact.read.png)
+
+
+## Footer
+
+Explore more and stay connected with us! Check out our social media profiles for the latest updates, news, and community interactions.
+![img](assets/images/footer.read.png)
+
+## Deployment
+
+To deploy github, follow these steps:
+
+1. Navigate to the GitHub repository for **Your Project Name** and go to the **Settings** tab.
+
+2. In the Settings menu, find the **Pages** tab on the left-hand side.
+
+3. Under the **Source** section, select the branch you want to deploy, typically the main or master branch.
+
+4. Click **Save**.
+
+5. Once the selected branch has been chosen, the page will be automatically refreshed, and you'll see a detailed ribbon display indicating the successful deployment.
+
+Now, your project, **Your Project Name**, should be accessible on GitHub Pages!
+
+Note: It might take a few moments for the changes to take effect, and for your site to become live.
+
+![img](assets/images/deployment.png)
+
+
+
+
 
 
 ## Validation

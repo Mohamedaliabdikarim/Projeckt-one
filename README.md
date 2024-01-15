@@ -2,6 +2,9 @@
 
 Welcome to Moon Explorer! This webpage is dedicated to providing interesting facts about the moon. Explore the mysteries and wonders of Earth's celestial companion.
 
+
+Welcome to Moon Explorer! [visit the page ](https://mohamedaliabdikarim.github.io/Projeckt-one/)
+
 ## Introduction
 Moon Explorer is a web project designed for people fascinated by the moon. Uncover captivating facts and trivia about our cosmic neighbor right here.
 
@@ -10,7 +13,7 @@ Moon Explorer is a web project designed for people fascinated by the moon. Uncov
 Dive into the moon's mesmerizing visuals with our collection of media content:
 
 ## Usage
-Navigate through the webpage to discover various moon-related content. Click on the media elements to view GIFs and videos, and enjoy the informative text sections.
+Navigate through the webpage to discover various moon-related content.[ Click on the media elements to view GIFs and videos, and enjoy the informative text sections](gallery.html).
 
 ## Installation
 Moon Explorer is a web-based project, and no installation is required. Simply visit the project webpage [here](https://mohamedaliabdikarim.github.io/Projeckt-one/) to start exploring the moon.

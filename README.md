@@ -101,7 +101,7 @@ I encountered several bugs in my HTML and CSS, which I discovered during validat
 
 ### HTML
 - Passed W3C HTML validation with no issues.
-
+![img](assets/images/home.noerro.png)
 ### CSS
 - Successfully validated with W3C CSS, free from errors.
 

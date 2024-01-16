@@ -81,11 +81,19 @@ Note: It might take a few moments for the changes to take effect, and for your s
 
 ![img](assets/images/deployment.png)
 
-Explore the active GitHub repository by following this link [her](https://github.com/Mohamedaliabdikarim/Projeckt-one):
+Explore the active GitHub repository by following this link [her](https://github.com/Mohamedaliabdikarim/Projeckt-one)
 
 
 
+### BUGS
+I encountered several bugs in my HTML and CSS, which I discovered during validation. The form was not functioning correctly initially
 
+## HTML
+![img](assets/images/html.readME.png) 
+
+
+## CSS
+![img](assets/images/css.readME.png)
 
 
 ## Validation
@@ -121,3 +129,5 @@ Code
 
 - footer was taken forom [LOVE RUNNIG](https://github.com/Mohamedaliabdikarim/love-runer)
 
+## Acknowledgements
+This website stands as the culmination of my efforts during the Portfolio 1 Project for the Full Stack Software Developer (e-Commerce) Diploma at the Code Institute. I extend my heartfelt gratitude to my mentor, Precious Ijege, the invaluable Slack community, and everyone at the Code Institute for their unwavering assistance and support throughout this journey. While Wawas Woods is a fictitious entity, its presence is tangible in every aspect except for the business title. At present, it is more than just a project – it is a passion!

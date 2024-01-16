@@ -91,6 +91,10 @@ nav a {
 .icon #k-menu {
   display: none;
 }
+.active{
+  border-color: black;
+  color: red;
+}
 
 .containter {
   display: flex;
@@ -364,6 +368,8 @@ button {
     background-color: rgba(0, 255, 255, 0.1);
     border-radius: 35px;
   }
+
+
 
   .containter {
     display: flex;

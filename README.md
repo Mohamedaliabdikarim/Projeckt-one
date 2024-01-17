@@ -37,6 +37,10 @@ Positioned at the top of each page on the site, the navigation menu is fully res
 
 ![img](assets/images/logo.read.png)
 
+for small small devices
+![img](assets/images/menu.readme.png)
+
+
 ## Gallery
 
 Welcome to our gallery page! Here, you'll find a collection of stunning images of the moon. We've made it easy for you to explore and comprehend the beauty of the moon through these visually impressive pictures.
@@ -104,9 +108,12 @@ I encountered several bugs in my HTML and CSS, which I discovered during validat
 ![img](assets/images/home.noerro.png)
 ### CSS
 - Successfully validated with W3C CSS, free from errors.
+![img](assets/images/css.noerro.png)
 
 
-
+## Testing
+The page underwent testing with Google Lighthouse, and you can view the results below
+![img](assets/images/lightgouse.png)
 
 
 ## Credits

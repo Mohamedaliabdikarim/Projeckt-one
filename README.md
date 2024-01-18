@@ -131,22 +131,14 @@ I encountered several bugs in my HTML and CSS, which I discovered during validat
 ### CSS
 ![img](assets/images/css.readME.png)
 
-## Responsiveness Test
-## Feedback Form
+## Device Testing Form
 
-If you have any feedback or suggestions, please let us know by filling out the form below:
+| Device         | iphone 14 pro | Galaxy S8+ | iPhone 5 | iPad mini | iPad Air | Display <1200px | Display >1200px |
+|----------------|---------|-----------|----------|------|----------|-----------------|------------------|
+| Render         | pass    | pass      | pass     | pass | pass     | pass            | pass             |
+| Images         | pass    | pass      | pass     | pass | pass     | pass            | pass             |
+| Links          | pass    | pass      | pass     | pass | pass     | pass            | pass             |
 
-<details>
-  <summary>Feedback Form</summary>
-  
-  <!-- Your HTML form goes here -->
-  <form>
-    <label for="feedback">Feedback:</label><br>
-    <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea><br><br>
-    <input type="submit" value="Submit">
-  </form>
-
-</details>
 
 
 

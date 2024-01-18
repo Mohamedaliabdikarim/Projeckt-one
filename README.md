@@ -31,9 +31,22 @@ I created the wireframes for Moon using Figma, designing frames specifically for
 
 The Moon website features a sleek design with two main sections, complemented by a convenient contact page located at the bottom of every page. Upon loading, the default landing page is the engaging home page. Navigating through the site is effortless, as the Gallery and Contact pages are prominently accessible from the well-organized navigation menu. Additionally, a direct link to the contact page is strategically placed for easy access.
 
+### Design Choices
+
+ - ### Typography
+
+The selected fonts include 'Poppins' for the body text, with a fallback to 'sans-serif' in case 'Poppins' is unavailable.
+
+- ### Clour choice
+
+- The chosen colors are white and blue, aiming to mimic the sky and clouds.
 
 
-## Usage
+
+
+
+
+# Usage
 Navigate through the webpage to discover various moon-related content.[ Click on the media elements to view GIFs and videos, and enjoy the informative text sections](gallery.html).
 
 ## Installation

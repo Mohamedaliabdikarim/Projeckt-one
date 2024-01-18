@@ -18,8 +18,12 @@ Dive into the moon's mesmerizing visuals with our collection of media content:
 ##
 ## # Wireframes
 I created the wireframes for Moon using Figma, designing frames specifically for a full-width display. The final website deviates slightly from the original wireframes, reflecting adjustments made during the development proces
-![image](C:\Users\Mohamed\Projeckt-one\assets\images\figma2.png)
+![image](assets/images/figma2.png)
+![image](assets/images/figma.png)
 
+#  Site Structure
+
+The Moon website features a sleek design with two main sections, complemented by a convenient contact page located at the bottom of every page. Upon loading, the default landing page is the engaging home page. Navigating through the site is effortless, as the Gallery and Contact pages are prominently accessible from the well-organized navigation menu. Additionally, a direct link to the contact page is strategically placed for easy access.
 
 
 
@@ -42,7 +46,7 @@ Happy moon exploration!
 ## Features
 Moon website has been designed to provide a welcoming and user-friendly experience. It incorporates familiar elements like a navigation bar and a contact form to enhance ease of use. The overall ambiance of the website aims to be inviting, ensuring a non-intimidating atmosphere that encourages users to explore its content more deeply.
 
-## Navigation Menu:
+# Navigation Menu:
 
 Positioned at the top of each page on the site, the navigation menu is fully responsive and features links to all pages for effortless navigation from a centralized location. The clickable logo further enriches the user experience by offering a direct link back to the home page, contributing to a seamless and user-friendly website navigation.
 
@@ -50,6 +54,18 @@ Positioned at the top of each page on the site, the navigation menu is fully res
 
 for small small devices
 ![img](assets/images/menu.readme.png)
+
+# Future Features
+
+
+- Introduction of a login page where users interested in the moon can log in and post articles about the moon.
+- Implementation of a discussion section where users can engage in conversations and share images.
+- Creation of a page allowing users to upload and share images.
+
+
+
+
+
 
 
 ## Gallery

@@ -9,12 +9,14 @@ Welcome to Moon Explorer! [visit the page ](https://mohamedaliabdikarim.github.i
 ## Introduction
 Moon Explorer is a web project designed for people fascinated by the moon. Uncover captivating facts and trivia about our cosmic neighbor right here.
 
-
-
 ![img](assets/images/bilde.png)
+
 # Media
 ---
 Dive into the moon's mesmerizing visuals with our collection of media content:
+
+## Installation
+Moon Explorer is a web-based project, and no installation is required. Simply visit the project webpage [here](https://mohamedaliabdikarim.github.io/Projeckt-one/) to start exploring the moon.
 
 #  User Experience (UX)
 ---
@@ -42,25 +44,8 @@ The selected fonts include 'Poppins' for the body text, with a fallback to 'sans
 - The chosen colors are white and blue, aiming to mimic the sky and clouds.
 
 
-
-
-
-
 # Usage
 Navigate through the webpage to discover various moon-related content.[ Click on the media elements to view GIFs and videos, and enjoy the informative text sections](gallery.html).
-
-## Installation
-Moon Explorer is a web-based project, and no installation is required. Simply visit the project webpage [here](https://mohamedaliabdikarim.github.io/Projeckt-one/) to start exploring the moon.
-
-## Contributing
-Feel passionate about the moon? Contributions are welcome! Fork the repository, make your enhancements, and submit a pull request. Reach out to contact page.
-
-
-
-## Contact
-Have questions, suggestions, or just want to chat about the moon? Reach out to contact page.
-
-Happy moon exploration!
 
 # Features
 ---
@@ -107,6 +92,7 @@ Welcome to our "Contact Us" section! If you have any questions, new ideas, disco
 Explore more and stay connected with us! Check out our social media profiles for the latest updates, news, and community interactions.
 ![img](assets/images/footer.read.png)
 
+
 # Future Features
 ---
 
@@ -115,7 +101,56 @@ Explore more and stay connected with us! Check out our social media profiles for
 - Implementation of a discussion section where users can engage in conversations and share images.
 - Creation of a page allowing users to upload and share images.
 
-## Deployment
+# Technologies Used
+---
+- HTML5 serves as the foundation for the website's content and structure.
+- CSS contributes to the overall styling.
+- Wireframes are crafted using figma.
+-  GitHub is utilized for hosting and editing the website.
+
+# Testing 
+---
+### Validation
+---
+### HTML
+- Passed W3C HTML validation with no issues.
+![img](assets/images/home.noerro.png)
+### CSS
+- Successfully validated with W3C CSS, free from errors.
+![img](assets/images/css.noerro.png)
+
+
+## BUGS
+
+I encountered several bugs in my HTML and CSS, which I discovered during validation. The form was not functioning correctly initially
+
+### HTML
+![img](assets/images/html.readME.png) 
+
+
+### CSS
+![img](assets/images/css.readME.png)
+
+## Responsiveness Test
+## Feedback Form
+
+If you have any feedback or suggestions, please let us know by filling out the form below:
+
+<details>
+  <summary>Feedback Form</summary>
+  
+  <!-- Your HTML form goes here -->
+  <form>
+    <label for="feedback">Feedback:</label><br>
+    <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea><br><br>
+    <input type="submit" value="Submit">
+  </form>
+
+</details>
+
+
+
+# Deployment
 
 To deploy github, follow these steps:
 
@@ -162,48 +197,10 @@ Here's the process for cloning a project from GitHub:
   5. Type "git clone" and then paste the URL copied from GitHub.
   6. Press enter, and the local copy will be successfully created.
 
+  # Credits
+  ---
 
-# Technologies Used
----
-- HTML5 serves as the foundation for the website's content and structure.
-- CSS contributes to the overall styling.
-- Wireframes are crafted using figma.
--  GitHub is utilized for hosting and editing the website.
-
-
-
-
-
-### BUGS
-I encountered several bugs in my HTML and CSS, which I discovered during validation. The form was not functioning correctly initially
-
-## HTML
-![img](assets/images/html.readME.png) 
-
-
-## CSS
-![img](assets/images/css.readME.png)
-
-
-## Validation
-
-
-### HTML
-- Passed W3C HTML validation with no issues.
-![img](assets/images/home.noerro.png)
-### CSS
-- Successfully validated with W3C CSS, free from errors.
-![img](assets/images/css.noerro.png)
-
-
-## Testing
-The page underwent testing with Google Lighthouse, and you can view the results below
-![img](assets/images/lightgouse.png)
-
-
-## Credits
-
-content
+### content
 - font is from [google fonts]('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@200;400;700&display=swap')
 
 - icon I made it in [figma ](https://www.figma.com/)
@@ -211,7 +208,7 @@ content
 - the text is from [NASA](https://science.nasa.gov/moon/) and [ROYAL MUSEUMS GREENWICH ](https://www.rmg.co.uk/stories/topics/interesting-facts-about-moon)
 
 
-Media
+### Media
 - All the pictures in the gallery have been retrieved from a Google search.
 
   - image  [google ](https://lens.google.com/search?ep=iosbcm&re=mf&s=4&p=AbrfA8o7tPrkaWnTPvrZxE_HdMWEGV40z4ep8g20Gw5zP-bRcgxr-nPEPwjXYt_u_qffIj6RsRslxe5gPJ_bgpOXWeOB2oOZAzOgvblKl09tRtrkcLVOWZPg13Gc1LTlK-NUh2bz2HJdJxUJdnXkglo5JiFo4wKjokK1EM8yr7P2eZTiAorUgbL6reThafX1iyl88uPOAtuwX29Io51anabbqZR9FoU0qzQfZFjOHX00L4fj43R4EVIwqkT3bCrs_QBnPD_UlQip6A%3D%3D&pli=1#lns=W251bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsIkVrY0tKRFJoWkdJME5EWmxMVFU0WmpjdE5HUTVaUzFoT0RBNUxUaGpaVE5oTm1aa01USTBOUklmYjNneVJrMVlWV0ZSUmpCVlRVbG5SM0JuU1V4dVVESkpVVzl4VGpCU1p3PT0iXQ==)
@@ -240,10 +237,12 @@ Media
 
 
 
-Code
+## Code
+
 - The header and navigation are inspired by and include elements borrowed from [YouTube](https://www.youtube.com/watch?v=yE9DLIoDwCg&t=720s)
 
 - footer was taken forom [LOVE RUNNIG](https://github.com/Mohamedaliabdikarim/love-runer)
 
-## Acknowledgements
+# Acknowledgements
+---
 This website stands as the culmination of my efforts during the Portfolio 1 Project for the Full Stack Software Developer (e-Commerce) Diploma at the Code Institute. I extend my heartfelt gratitude to my mentor, [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/), the invaluable Slack community, and everyone at the Code Institute for their unwavering assistance and support throughout this journey. While Wawas Woods is a fictitious entity, its presence is tangible in every aspect except for the business title. At present, it is more than just a project – it is a passion!

@@ -8,9 +8,20 @@ Welcome to Moon Explorer! [visit the page ](https://mohamedaliabdikarim.github.i
 ## Introduction
 Moon Explorer is a web project designed for people fascinated by the moon. Uncover captivating facts and trivia about our cosmic neighbor right here.
 
+
+
 ![img](assets/images/bilde.png)
 ## Media
 Dive into the moon's mesmerizing visuals with our collection of media content:
+
+#  User Experience (UX)
+##
+## # Wireframes
+I created the wireframes for Moon using Figma, designing frames specifically for a full-width display. The final website deviates slightly from the original wireframes, reflecting adjustments made during the development proces
+![image](C:\Users\Mohamed\Projeckt-one\assets\images\figma2.png)
+
+
+
 
 ## Usage
 Navigate through the webpage to discover various moon-related content.[ Click on the media elements to view GIFs and videos, and enjoy the informative text sections](gallery.html).

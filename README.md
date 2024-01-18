@@ -1,4 +1,5 @@
 # Moon Explorer
+---
 
 Welcome to Moon Explorer! This webpage is dedicated to providing interesting facts about the moon. Explore the mysteries and wonders of Earth's celestial companion.
 
@@ -11,17 +12,22 @@ Moon Explorer is a web project designed for people fascinated by the moon. Uncov
 
 
 ![img](assets/images/bilde.png)
-## Media
+# Media
+---
 Dive into the moon's mesmerizing visuals with our collection of media content:
 
 #  User Experience (UX)
-##
-## # Wireframes
+---
+
+
+### Wireframes
+---
 I created the wireframes for Moon using Figma, designing frames specifically for a full-width display. The final website deviates slightly from the original wireframes, reflecting adjustments made during the development proces
 ![image](assets/images/figma2.png)
 ![image](assets/images/figma.png)
 
-#  Site Structure
+### Site Structure
+---
 
 The Moon website features a sleek design with two main sections, complemented by a convenient contact page located at the bottom of every page. Upon loading, the default landing page is the engaging home page. Navigating through the site is effortless, as the Gallery and Contact pages are prominently accessible from the well-organized navigation menu. Additionally, a direct link to the contact page is strategically placed for easy access.
 
@@ -43,24 +49,30 @@ Have questions, suggestions, or just want to chat about the moon? Reach out to c
 
 Happy moon exploration!
 
-## Features
+# Features
+---
 Moon website has been designed to provide a welcoming and user-friendly experience. It incorporates familiar elements like a navigation bar and a contact form to enhance ease of use. The overall ambiance of the website aims to be inviting, ensuring a non-intimidating atmosphere that encourages users to explore its content more deeply.
 
-# Navigation Menu:
+### Navigation Menu:
+---
 
-Positioned at the top of each page on the site, the navigation menu is fully responsive and features links to all pages for effortless navigation from a centralized location. The clickable logo further enriches the user experience by offering a direct link back to the home page, contributing to a seamless and user-friendly website navigation.
+- Positioned at the top of each page on the site, the navigation menu is fully responsive and features links to all pages for effortless navigation from a centralized location. The clickable logo further enriches the user experience by offering a direct link back to the home page, contributing to a seamless and user-friendly website navigation.
 
 ![img](assets/images/logo.read.png)
 
-for small small devices
+- for small small devices
+
+
 ![img](assets/images/menu.readme.png)
 
 # Future Features
+---
 
 
 - Introduction of a login page where users interested in the moon can log in and post articles about the moon.
 - Implementation of a discussion section where users can engage in conversations and share images.
 - Creation of a page allowing users to upload and share images.
+
 
 
 
@@ -114,6 +126,13 @@ Note: It might take a few moments for the changes to take effect, and for your s
 
 Explore the active GitHub repository by following this link [her](https://github.com/Mohamedaliabdikarim/Projeckt-one)
 
+
+# Technologies Used
+---
+- HTML5 serves as the foundation for the website's content and structure.
+- CSS contributes to the overall styling.
+- Wireframes are crafted using figma.
+-  GitHub is utilized for hosting and editing the website.
 
 
 ### BUGS
@@ -188,4 +207,4 @@ Code
 - footer was taken forom [LOVE RUNNIG](https://github.com/Mohamedaliabdikarim/love-runer)
 
 ## Acknowledgements
-This website stands as the culmination of my efforts during the Portfolio 1 Project for the Full Stack Software Developer (e-Commerce) Diploma at the Code Institute. I extend my heartfelt gratitude to my mentor, Precious Ijege, the invaluable Slack community, and everyone at the Code Institute for their unwavering assistance and support throughout this journey. While Wawas Woods is a fictitious entity, its presence is tangible in every aspect except for the business title. At present, it is more than just a project – it is a passion!
+This website stands as the culmination of my efforts during the Portfolio 1 Project for the Full Stack Software Developer (e-Commerce) Diploma at the Code Institute. I extend my heartfelt gratitude to my mentor, [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/), the invaluable Slack community, and everyone at the Code Institute for their unwavering assistance and support throughout this journey. While Wawas Woods is a fictitious entity, its presence is tangible in every aspect except for the business title. At present, it is more than just a project – it is a passion!

@@ -78,16 +78,6 @@ Moon website has been designed to provide a welcoming and user-friendly experien
 
 ![img](assets/images/menu.readme.png)
 
-# Future Features
----
-
-
-- Introduction of a login page where users interested in the moon can log in and post articles about the moon.
-- Implementation of a discussion section where users can engage in conversations and share images.
-- Creation of a page allowing users to upload and share images.
-
-
-
 
 
 
@@ -117,6 +107,14 @@ Welcome to our "Contact Us" section! If you have any questions, new ideas, disco
 Explore more and stay connected with us! Check out our social media profiles for the latest updates, news, and community interactions.
 ![img](assets/images/footer.read.png)
 
+# Future Features
+---
+
+
+- Introduction of a login page where users interested in the moon can log in and post articles about the moon.
+- Implementation of a discussion section where users can engage in conversations and share images.
+- Creation of a page allowing users to upload and share images.
+
 ## Deployment
 
 To deploy github, follow these steps:
@@ -139,6 +137,31 @@ Note: It might take a few moments for the changes to take effect, and for your s
 
 Explore the active GitHub repository by following this link [her](https://github.com/Mohamedaliabdikarim/Projeckt-one)
 
+## To duplicate a repository on GitHub
+
+You can create a duplicate of a GitHub repository by forking the GitHub account. This duplicated version allows you to view and make changes without impacting the original repository. Follow these steps to fork the repository:
+
+- 1. Sign in to your GitHub account and find the desired repository.
+- 2. On the right side of the page, adjacent to the repository name, there is a 'Fork' button. Click on this button to generate a copy of the original repository in your GitHub account.
+![img](assets/images/fork.png)
+
+### To generate a local copy of this projec
+Here's the process for cloning a project from GitHub:
+
+
+To generate a local copy of this project
+
+Here's the process for cloning a project from GitHub:
+
+  1. Navigate to the code tab under the repository's name.
+  2. In the Clone with HTTPS section, click on the clipboard icon to copy the provided URL.
+  ![img](assets/images/copy.png)
+
+  3. Open Git Bash in your preferred integrated development environment (IDE).
+  4. Set the current working directory to the location where you intend to create the cloned directory.
+  5. Type "git clone" and then paste the URL copied from GitHub.
+  6. Press enter, and the local copy will be successfully created.
+
 
 # Technologies Used
 ---
@@ -146,6 +169,9 @@ Explore the active GitHub repository by following this link [her](https://github
 - CSS contributes to the overall styling.
 - Wireframes are crafted using figma.
 -  GitHub is utilized for hosting and editing the website.
+
+
+
 
 
 ### BUGS

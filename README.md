@@ -115,6 +115,7 @@ Explore more and stay connected with us! Check out our social media profiles for
 ### HTML
 - Passed W3C HTML validation with no issues.
 ![img](assets/images/home.noerro.png)
+![img](assets/images/galler.no.erro.png)
 ### CSS
 - Successfully validated with W3C CSS, free from errors.
 ![img](assets/images/css.noerro.png)
